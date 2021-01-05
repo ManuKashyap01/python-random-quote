@@ -6,6 +6,9 @@ def primary():
   last=14
   rd=random.randint(0,last)
   print(quotes[rd],end='')
+  print(quotes[random.randint(0,rd)],end='')
+  print(quotes[random.randint(0,rd)],end='')
+
 
 if __name__== "__main__":
   primary()

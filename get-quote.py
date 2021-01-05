@@ -5,7 +5,7 @@ def primary():
   f.close()
   last=13
   rd=random.randint(0,last)
-  print(quotes[rd])
+  print(quotes[rd],end='')
 
 if __name__== "__main__":
   primary()
